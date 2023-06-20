@@ -15,3 +15,4 @@ for i in range(START, END):
     for j in range(END // HALF + 1, END):
         print(f"{j:>2} X {i:>1} = {i * j:>2}", end="   ")
     print()
+    
