@@ -16,9 +16,7 @@ def hex_number(num):
     result = ''
     while num > 0:
         tmp = num % 16 
-        if num ==0:
-            result = '0'
-        elif tmp == 10:
+        if tmp == 10:
             result = 'a' + result
         elif tmp == 11:
             result = 'b' + result
