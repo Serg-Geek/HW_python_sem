@@ -32,7 +32,7 @@ for friend, items in all_frends.items():
                 del unique_items[item]
             else:
                 unique_items[item] = friend
-print(f'Уникальные вещи и имена друзей: {unique_items}')
+print(f'Уникальные  вещи и имена друзей: {unique_items}')
 
 # Находим вещи, которые есть у всех друзей кроме одного и имя того, у кого данная вещь отсутствует
 missing_items = {}
@@ -44,4 +44,4 @@ for friend, items in all_frends.items():
             missing_items[item].add(friend)
 for item, friends in missing_items.items():
     if len(friends) == len(all_frends) - 1:
-        print(f'Вещь, которая есть у всех кроме {friends.difference(all_items).pop()}: {item}')
+        print(f'Вещь,  которая  есть у всех кроме {friends.difference(all_items).pop()}: {item}')
