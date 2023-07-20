@@ -40,3 +40,5 @@ def guess_num(lower_lim, upper_lim, quantity):
             print("меньше")
         if count == 10:
             return False
+
+
